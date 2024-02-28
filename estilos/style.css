@@ -9,17 +9,6 @@
     --purpura: #474973;
 }
 
-
-/*fuente
-.open-sans-<uniquifier> {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" <width>;
-  }
-*/
   html {
     box-sizing: border-box;
     font-size: 62.5%;
