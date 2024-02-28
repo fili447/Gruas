@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--es necesaria para que la pagina se vea bien en diferentes dispositivos-->
+    <meta name="description" content="Pagina Gruas Sanchez, servicio de remolque en Benemérito de las Americas Chaiapas"> <!--Ayyuda a tener mejor calificicacion y mejor posicion-->
+    <title>Grúas Sánchez</title>
+
+    <!--Carga de las hojas de estilo normalize y style-->
+
+    <link rel="preload" href="estilos/normalize.css" as="style">
+    <link rel="stylesheet" href="estilos/normalize.css" as="style">
+
+    <link rel="preload" href="estilos/style.css" as="style">
+    <link rel="stylesheet" href="estilos/style.css" as="style">
+
+    <!--Fuente open Sains 400 Regular-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link preload ="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" as="font" crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+    <!---->
+</head>
+
+<body>
+    <header class="header">
+            <div class="contenedor">
+                <div class="barra">
+                    <a href="index.html" class="logo">
+                        <h1 class="logo__nombre no-margin centrar-texto">Grúas<span class="logo__bold">Sánchez</span></h1>
+                    </a>
+    
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="servicios.html" class="navegacion__enlace">Servicios</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+    
+            <div class="header-texto">
+                <h2 class="no-margin">Grúas Sánchez</h2>
+                <p class="no-magin">Somos los número 1° en la región</p>
+            </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Noticias</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="imagenes/flete.webp" alt="notimagen">
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Accidenetes en carretera</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur totam, quia adipisci quos deserunt laudantium dolore repudiandae recusandae perferendis facilis 
+                        illum blanditiis fuga quisquam in temporibus culpa unde dicta.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                   <img src="imagenes/choque.webp" alt="notimagen">  <!--recomendable esta extencion y funciona bien con esta linea html-->
+                    <!--<source loading="lazi" srcset="img/blog2.webp" type="image/webp"> esta linea no funciona -->
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Accidentes en el Poblado</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur totam, quia adipisci quos deserunt laudantium dolore repudiandae recusandae perferendis facilis 
+                        illum blanditiis fuga quisquam in temporibus culpa unde dicta.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="imagenes/corralon1.webp" alt="notimagen">
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Corralon</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur totam, quia adipisci quos deserunt laudantium dolore repudiandae recusandae perferendis facilis 
+                        illum blanditiis fuga quisquam in temporibus culpa unde dicta.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Servicios locales y fuera</h3>
+            
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Servicios locales</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$900</span>
+                    </p>
+                    <p class="widget-curso__label">Nocturno:
+                        <span class="widget-curso__info">$1300</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Más Información</a>
+                </li>
+            
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Servicios Fuera</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$4000</span>
+                    </p>
+                    <p class="widget-curso__label">Nocturno:
+                        <span class="widget-curso__info">$5000</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Más Información</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Grúas<span class="logo__bold">Sánchez</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+
+</body>
+</html>
